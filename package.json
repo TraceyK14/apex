@@ -1,0 +1,31 @@
+{
+  "name": "apex",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && tsc --project tsconfig.json",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/react-common": "^3.1.4",
+    "@apollo/react-hoc": "^3.1.4",
+    "@apollo/react-hooks": "^3.1.4",
+    "@apollo/react-ssr": "^3.1.4",
+    "@types/graphql": "^14.5.0",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "16.9.6",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.7",
+    "graphql": "^15.0.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.4",
+    "react-dom": "^16.13.1",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
